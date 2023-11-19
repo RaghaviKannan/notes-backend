@@ -7,7 +7,7 @@ const dotenv = require("dotenv").config();
 const redisClient = require("./redis");
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = 4000;
 
 app.use(cors());
 app.use(express.json());
